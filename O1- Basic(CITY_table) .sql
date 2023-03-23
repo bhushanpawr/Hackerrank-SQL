@@ -24,3 +24,6 @@ SELECT * FROM CITY WHERE COUNTRYCODE = 'JPN';
 
 # Q5) Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
 SELECT district FROM CITY WHERE countrycode = 'JPN';
+
+# Q6) Query all columns for all American cities in the CITY table with populations larger than 100000. The CountryCode for America is USA.
+SELECT * FROM CITY WHERE COUNTRYCODE='USA' AND POPULATION >100000;
